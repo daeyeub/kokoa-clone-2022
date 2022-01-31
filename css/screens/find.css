@@ -104,3 +104,9 @@
   will-change: transform;
   animation: heartbeat 1s linear infinite;
 }
+.open-post__column-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

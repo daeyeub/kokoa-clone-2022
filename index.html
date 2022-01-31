@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kakao Talk</title>
+    <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,12 +24,12 @@
     </div>
 
     <header class="Welcome-header">
-        <h1 class="Welcome-header_title">Welcome to kakao talk</h1>
-        <p class="Welcome-header_text">If you have a kakao Account,log in with your email or phone number. </p>
+        <h1 class="Welcome-header_title">Welcome to Kokoa talk</h1>
+        <p class="Welcome-header_text">If you have a Kokoa Account,log in with your email or phone number. </p>
     </header>
     <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password" />
+        <input required name="username" type="text" placeholder="Email or phone number" />
+        <input required name="password" type="password" minlength="8" placeholder="Password" />
         <input type="submit" value=" Log in" />
         <input type="submit" value="Sign up" />
         <a href="#">Find kokoa Account or Password</a>

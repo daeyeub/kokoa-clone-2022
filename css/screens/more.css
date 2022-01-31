@@ -19,7 +19,7 @@
   align-items: center;
 }
 .more-suggestions__icon-image {
-  background-color: var(--yellow);
+  background-color: rgb(77, 73, 73);
   color: white;
   border-radius: 10px;
   margin-bottom: 10px;
